@@ -7,6 +7,7 @@ City of LA provided open access to 311 Request Data reported by residents on inc
 The current prototype has two dashboards, one containing the summary for the neighborhood dashboard, the other one contains a dashboard for comparison between neighbhood councils. 
 
 Neighborhood Council Summary Dashboard: 
+
 ![plotly_mvp_v1 2](https://user-images.githubusercontent.com/77765986/171287642-c660ab76-ae0e-4871-b9aa-5b45692c81f1.PNG)
 
 Visuals: 
@@ -21,6 +22,7 @@ Features:
 3) Data Quality Toggle to filter data with quality issues (where the time to close is less than 1 day or longer than 100 days)
 
 Neighborhood Council Comparison Dashboard
+
 ![plotly_mvp_v1 2_2](https://user-images.githubusercontent.com/77765986/171287996-f6b75172-1112-426e-9c14-78a0e32c66e4.PNG)
 
 
@@ -29,3 +31,18 @@ Visuals:
 2) Bar Chart: Number of requests by sources. This indicators show the variety of mediums individuals make request through
 3) Line chart: total number of 311 request comparison
 
+
+## Setting Up
+
+1) Pull the 311-Data-Dashboard repository on your terminal. Or just download it.
+```
+git pull https://github.com/joshuayhwu/311-Data-Dashboard/
+```
+3) Run the following in the terminal 
+```
+pip install -r requirements.txt
+```
+4) Run the dash app locally 
+```
+python app.py
+```
