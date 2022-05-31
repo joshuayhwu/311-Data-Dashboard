@@ -1,8 +1,8 @@
 # 311-Data-Repository
 
-This repository is the prototype dashboard for the HackForLA 311 Data Project version 2 website.
+This repository contains the files associated with the prototype dashboard for the HackForLA 311 Data Project version 2 website.
 
-City of LA provided open access to 311 Request Data reported by residents on incidents such as bulky items, animal remains, or water waste present in the area.
+City of LA provided open access to 311 Request Data reported by residents on incidents such as bulky items, animal remains, or water waste present in the area. The current dashboard aims to leverage these data to generate insights to empower the city of LA and different neighborhood councils, with the end goal of driving community initiatives to make a positive impact in the community.
 
 The current prototype has two dashboards, one containing the summary for the neighborhood dashboard, the other one contains a dashboard for comparison between neighbhood councils. 
 
