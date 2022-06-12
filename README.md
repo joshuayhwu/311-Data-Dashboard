@@ -32,17 +32,22 @@ Visuals:
 3) Line chart: total number of 311 request comparison
 
 
-## Setting Up
+## Setting up with Zip File
 
-1) Pull the 311-Data-Dashboard repository on your terminal. Or just download it.
+1) Download the 311PlotlyDockerized.zip Zip File
+2) Unzip the file locally
+3) Open the unzip folder with your favorite directory
+4) Set up and start up local 311-Data API according to [311 Data Project Documentation](https://github.com/hackforla/311-data/blob/dev/docs/server_setup.md)
+5) Build docker container with the following code in your terminal
 ```
-git pull https://github.com/joshuayhwu/311-Data-Dashboard/
+docker build -t dashboard_upgrade .
 ```
-3) Run the following in the terminal 
+6) Run the docker container in your terminal
 ```
-pip install -r requirements.txt
+docker run -p 5500:5500 -v "$(pwd):/app" -e PRELOAD=False dashboard_upgrade
 ```
-4) Run the dash app locally 
+7) Use your favorite browser to access the dashboards with the following url
 ```
-python app.py
+http://localhost:5500/
 ```
+8) Click on ncSumComp
