@@ -1,6 +1,6 @@
 # 311-Data-Repository
 
-This repository contains the files associated with the prototype dashboard for the HackForLA 311 Data Project version 2 website.
+This repository contains the files associated with the prototype dashboard (NC Summary Comparison, aka ncSumComp) for the HackForLA 311 Data Project version 2 website.
 
 City of LA provided open access to 311 Request Data reported by residents on incidents such as bulky items, animal remains, or water waste present in the area. The current dashboard aims to leverage these data to generate insights to empower the city of LA and different neighborhood councils, with the end goal of driving community initiatives to make a positive impact in the community.
 
@@ -50,4 +50,4 @@ docker run -p 5500:5500 -v "$(pwd):/app" -e PRELOAD=False dashboard_upgrade
 ```
 http://localhost:5500/
 ```
-8) Click on ncSumComp
+8) Click on ncSumComp for the v2 version of the dashboard displayed above. You can also view dashboards created by previous 311 data project engineers via the other tabs.
